@@ -1,10 +1,10 @@
 import "./App.css";
-import ProductTableArray from "./components/ProductTableArray";
+import NasaApiFlex from "./components/NasaApiFlex.jsx";
 
 function App() {
   return (
     <>
-      <ProductTableArray />
+      <NasaApiFlex />
     </>
   );
 }
