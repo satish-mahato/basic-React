@@ -4,9 +4,7 @@ export default function NasaApi() {
   const [mars, setMars] = useState(null); // Initialize as null to handle conditional rendering
 
   useEffect(() => {
-    fetch(
-      "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=E5ev3gqshH9WGukYdtslATK0P1ULvEgSho6n7iAg"
-    )
+    fetch(`${import.meta.env.VITE_NasaApi}`)
       .then((response) => response.json())
       .then((data) => {
         setMars(data);
