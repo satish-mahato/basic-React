@@ -1,0 +1,39 @@
+<script>
+  //   var username = prompt("Enter Name");
+  //   var role = prompt("Enter Role");
+  //   var projectname = prompt("Enter Product Name ");
+  //   class Product {
+  //     _productName;
+  //     get ProductName() {
+  //       return this._productName;
+  //     }
+  //     set ProductName(newName) {
+  //       if (role == "admin") {
+  //         this._productName = newName;
+  //       } else {
+  //         document.write(
+  //           `unauthorized :Hello ${username} you are not Authorized`
+  //         );
+  //       }
+  //     }
+  //   }
+  //   let obj = new Product();
+  //   obj.ProductName = projectname;
+  //   if (obj.ProductName) {
+  //     document.write("Product Name :" + obj.ProductName);
+  //   }
+  class Register {
+    Name = "lg tv";
+    Rating = {
+      Rate: {
+        Count: 3000,
+        Value: 4.5,
+      },
+    };
+    get Ratecount() {
+      return this.Rating.Rate.Count;
+    }
+  }
+  let obj = new Register();
+  document.write("Ratecount:" + obj.Ratecount);
+</script>
