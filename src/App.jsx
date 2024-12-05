@@ -1,10 +1,10 @@
 import "./App.css";
-import NasaApiFlex from "./components/NasaApiFlex.jsx";
+import EventBinding from "./components/EventBinding.jsx";
 
 function App() {
   return (
     <>
-      <NasaApiFlex />
+      <EventBinding />
     </>
   );
 }
