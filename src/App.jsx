@@ -1,10 +1,10 @@
 import "./App.css";
-import EventBinding from "./components/EventBinding.jsx";
+import ShoppingComponent from "./components/fakeStore/fakeStorecomponent.jsx";
 
 function App() {
   return (
     <>
-      <EventBinding />
+      <ShoppingComponent />
     </>
   );
 }
